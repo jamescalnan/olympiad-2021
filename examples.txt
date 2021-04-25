@@ -1,0 +1,27 @@
+BA is a pat as it splits into B and A, both of which are single letters and therefore pats, and B is
+alphabetically after A. AB is not a pat as the alphabetical rule would be broken;
+• Similarly ED is a pat but DE is not;
+• DEC is a pat as it splits into DE (whose reverse ED is a pat) and C.
+• CEDAB splits into CED and AB, whose reverses are pats and C, E, and D are after A and B
+alphabetically.
+
+
+A A YES YES NO
+
+AB CD NO NO NO
+
+BEFCD A NO YES YES
+
+GEA DBCF NO NO YES
+
+GEA -> NO
+
+GE   A
+   > so true
+
+
+
+
+EFCD GAB YES YES YES
+
+ECBDFA LKJIHG YES NO NO
